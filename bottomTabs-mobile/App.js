@@ -12,7 +12,7 @@ routemamba.register_http_routes([
     {
         method: "GET",
         meta_loader: true,
-        content_url: "./app/screens/home.php",
+        content_url: "./app/screens/Home.php",
         container: "#root",
         data: {},
         preloader: 'loading...',
@@ -23,7 +23,7 @@ routemamba.register_http_routes([
     {
         method: "GET",
         meta_loader: true,
-        content_url: "./app/screens/home.php",
+        content_url: "./app/screens/Home.php",
         container: "#root",
         data: {},
         preloader: 'loading...',
