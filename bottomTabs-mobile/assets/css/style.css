@@ -1,0 +1,106 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.Rowdies{
+    font-family: 'Rowdies', cursive;
+}
+
+.Roboto{
+    font-family: 'Roboto', sans-serif;
+}
+.logo-text{
+    color: #009688;
+}
+/* header */
+
+.header_wrapper{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    box-shadow: 1px 0px 5px gray;
+}
+
+
+/* footer  */
+.footer_wrapper{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px -1px 5px gray;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .footer-menu button {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .footer-menu button:hover {
+    color: #009688;
+  }
+
+  /* Tabs css */
+  .tab-container{
+    display: none;
+  }
+  .activeTab{
+    display: block !important;
+}
+  .tab-active {
+      color: #009688 !important;
+      display: flex;
+  }
+
+  .w-full-h-full-flex-center{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .w-full-h-full{
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .title-div{
+    color: #333;
+    padding: 5px;
+    font-family: 'Rowdies', cursive;
+  }
