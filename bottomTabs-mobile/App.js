@@ -1,5 +1,9 @@
 // set server host
-routemamba.registerServerHost('http://localhost:3000/');
+// dev
+// routemamba.registerServerHost('http://localhost:3000/');
+
+// live
+routemamba.registerServerHost('http://projects.routemamba.com/bottomTabs-mobile/');
 
 // set meta content
 routemamba.registerMetaUrl('./app/meta/meta.php');
